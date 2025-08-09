@@ -2,41 +2,27 @@ using UnityEngine;
 
 public class ChanceCounter : MonoBehaviour
 {
-    private float _maxChance = 100f;
-    private float _chance;
-    private float _chanceDevider = 0.5f;
-    public float ChanceDevider => _chanceDevider;
-    private void Start()
+    [SerializeField] private float _decreaseChance = 0.5f;
+
+    public bool CountChance(float chance)
     {
-        if (_chance == 0)
-        {
-            _chance = _maxChance;
-        }
+        float roll = Random.Range(0f, 100f);
+        Debug.Log($"ROLL: {roll} | CHANCE: {chance}");
+
+        return roll < chance;
     }
 
-    public void CheckChance()
+    public void ChangeChance(GameObject[] cubes)
     {
-        float roll = Random.Range(0, _maxChance);
-
-        if (roll < _chance)
+        foreach (GameObject cube in cubes)
         {
-            CubeDevider cubeDevider = GetComponent<CubeDevider>();
-            cubeDevider.TrySplit();
-            _chance *= _chanceDevider;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+            CubeChance cubeChance = cube.GetComponent<CubeChance>();
 
-    public void SetChance(float chance)
-    {
-        _chance = chance;
-    }
-
-    public float GetChance()
-    {
-        return _chance;
+            if (cubeChance != null)
+            {
+                float newChance = cubeChance.Chance * _decreaseChance;
+                cubeChance.UpdateChance(newChance);
+            }
+        }
     }
 }

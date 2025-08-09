@@ -1,32 +1,27 @@
-﻿using System;
 using UnityEngine;
 
 public class InputReader : MonoBehaviour
 {
-
+    [SerializeField] private CubeManager _cubeManager;
     [SerializeField] private Camera _camera;
-    [SerializeField] private Ray _ray;
-    [SerializeField] private float _maxDistance;
-    [SerializeField] private float _radius;
+    private float _maxDistance = 100;
+    private Ray _ray;
 
-    private void Update()
+    void Update()
     {
-        _ray = _camera.ScreenPointToRay(Input.mousePosition);
+        _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawLine(_ray.origin, _ray.direction * _maxDistance);
+
         RaycastHit hit;
-        Debug.DrawRay(_ray.origin, _ray.direction * _maxDistance);
 
-
-        if (Input.GetMouseButtonDown(0))
+        if (Physics.Raycast(_ray, out hit, Mathf.Infinity))
         {
-            if (Physics.Raycast(_ray, out hit, Mathf.Infinity))
-            {
-                GameObject objectHit = hit.collider.gameObject;
-                ChanceCounter chanceCounter = objectHit.GetComponent<ChanceCounter>();
+            Transform objectHit = hit.transform;
+            GameObject cube = objectHit.gameObject;
 
-                if (chanceCounter != null)
-                {
-                    chanceCounter.CheckChance();
-                }
+            if (Input.GetMouseButtonDown(0) && objectHit.CompareTag("Cube"))
+            {
+                _cubeManager.TrySplit(cube);
             }
         }
     }

@@ -3,22 +3,24 @@ using UnityEngine;
 public class RaycastDrawer : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
-    [SerializeField] private Ray _ray;
-    [SerializeField] private float _maxDistance;
-    [SerializeField] private float _radius;
-
-    public Transform Object;
+    private Ray _ray;
+    [SerializeField] private GameObject _gameObject;
+    private float _maxDistance = 100;
+    public GameObject GameObject => _gameObject;
 
     private void Update()
     {
-        _ray = _camera.ScreenPointToRay(Input.mousePosition);
+        _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawLine(_ray.origin, _ray.direction * _maxDistance);
+
         RaycastHit hit;
-        Debug.DrawRay(_ray.origin, _ray.direction * _maxDistance);
 
         if (Physics.Raycast(_ray, out hit, Mathf.Infinity))
         {
+            
             Transform objectHit = hit.transform;
-            Object = objectHit;
+            _gameObject = objectHit.gameObject;
         }
     }
+
 }
