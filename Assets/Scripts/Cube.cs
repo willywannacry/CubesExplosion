@@ -1,33 +1,30 @@
 using UnityEngine;
 
+[RequireComponent(typeof(ColorChanger))]
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Renderer))]
 public class Cube : MonoBehaviour
 {
+    [SerializeField] private float _chance;
+
+    public Rigidbody Rb => _rb;
+    public float Chance => _chance;
+
     private ColorChanger _changer;
+    private Renderer _renderer;
+    private Rigidbody _rb;
 
-    public Cube(float chance)
+    public void Init(Vector3 scale, float chance, float multiplier)
     {
-        Chance = chance;
+        transform.localScale = scale * multiplier;
+        _chance = chance;
     }
-
-    private void Start()
-    {
-        if (Chance == 0)
-        {
-            UpdateChance(100);
-        }
-    }
-
-    
-    public float Chance { get; private set; }
 
     private void Awake()
     {
-        _changer = gameObject.GetComponent<ColorChanger>();
-        _changer.ChangeColor();
-    }
-
-    public void UpdateChance(float chance)
-    {
-        Chance = chance;
+        _changer = GetComponent<ColorChanger>();
+        _renderer = GetComponent<Renderer>();
+        _changer.ChangeColor(_renderer);
+        _rb = GetComponent<Rigidbody>();
     }
 }

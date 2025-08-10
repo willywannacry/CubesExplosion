@@ -6,17 +6,12 @@ public class ExplosionCreater : MonoBehaviour
     [SerializeField] private float yForce = 20f;
     [SerializeField] private float zForce = 20f;
 
-    public void Explode(GameObject[] cubes)
+    public void Explode(Cube[] cubes)
     {
         foreach (var cube in cubes)
         {
-            Rigidbody rb = cube.GetComponent<Rigidbody>();
-            AddForce(rb);
+            Rigidbody rb = cube.Rb;
+            rb.AddForce(xForce, yForce, zForce);
         }
-    }
-
-    private void AddForce(Rigidbody rb)
-    {
-        rb.AddForce(xForce, yForce, zForce);
     }
 }

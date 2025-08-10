@@ -6,24 +6,30 @@ public class CubeSpawner : MonoBehaviour
     private int _maxCubes = 6;
     private float _sizeDevider = 0.5f;
 
-    public GameObject[] Spawn(GameObject gameObject)
+    public Cube[] TrySplitCube(Cube cube, float chance)
     {
-        int count = Random.Range(_minCubes, _maxCubes);
-        GameObject[] cubes = new GameObject[count];
+        int quantity = Quantity();
+        Cube[] cubes = new Cube[quantity];
 
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < quantity; i++)
         {
-            GameObject clone = Copy(gameObject);
+            Cube clone = Copy(cube, chance);
             cubes[i] = clone;
         }
 
+        Destroy(cube.gameObject);
         return cubes;
     }
 
-    private GameObject Copy(GameObject gameObject)
+    private int Quantity()
     {
-        GameObject clone = Instantiate(gameObject);
-        clone.transform.localScale = gameObject.transform.localScale * _sizeDevider;
+        return Random.Range(_minCubes, _maxCubes);
+    }
+
+    private Cube Copy(Cube cube, float chance)
+    {
+        Cube clone = Instantiate(cube);
+        clone.Init(cube.transform.localScale, chance, _sizeDevider);
         return clone;
     }
 }

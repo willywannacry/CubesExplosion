@@ -1,14 +1,10 @@
 using UnityEngine;
 
+
 public class ColorChanger : MonoBehaviour
 {
-    
-    public void ChangeColor(GameObject[] cubes)
+    public void ChangeColor(Renderer renderer)
     {
-        foreach (var cube in cubes)
-        {
-            Renderer renderer = cube.GetComponent<Renderer>();
-            renderer.material.color = Random.ColorHSV();
-        }
+        renderer.material.color = Random.ColorHSV();
     }
 }
