@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\ExplosionCreater.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\ChanceCounter.cs" />
+    <Compile Include="Assets\Scripts\Raycaster.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
     <Compile Include="Assets\Scripts\CubeSpawner.cs" />
   </ItemGroup>

@@ -7,12 +7,12 @@ public class Cube : MonoBehaviour
 {
     [SerializeField] private float _chance;
 
-    public Rigidbody Rb => _rb;
+    public Rigidbody Rigidbody => _rigidBody;
     public float Chance => _chance;
 
     private ColorChanger _changer;
     private Renderer _renderer;
-    private Rigidbody _rb;
+    private Rigidbody _rigidBody;
 
     public void Init(Vector3 scale, float chance, float multiplier)
     {
@@ -25,6 +25,6 @@ public class Cube : MonoBehaviour
         _changer = GetComponent<ColorChanger>();
         _renderer = GetComponent<Renderer>();
         _changer.ChangeColor(_renderer);
-        _rb = GetComponent<Rigidbody>();
+        _rigidBody = GetComponent<Rigidbody>();
     }
 }

@@ -894,9 +894,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -2.1936512, y: 0.48713017, z: 2.2518787}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -2.1936512, y: 0.48713017, z: 2.2518787}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -942,9 +942,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.0990529, y: 0.86646044, z: -0.19040269, w: -0.45075732}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.099052876, y: 0.86646026, z: -0.19040264, w: -0.4507572}
   m_Size:
     m_Target: 10
     speed: 2
@@ -1046,9 +1046,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6700000
-    m_LastClickedID: 28870
-    m_ExpandedIDs: 00000000c470000000ca9a3b
+    m_SelectedIDs: d0700000
+    m_LastClickedID: 28880
+    m_ExpandedIDs: 00000000ce70000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1123,7 +1123,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1174,8 +1174,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0a700000
-      m_LastClickedID: 28682
+      m_SelectedIDs: 02700000
+      m_LastClickedID: 28674
       m_ExpandedIDs: 22fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0

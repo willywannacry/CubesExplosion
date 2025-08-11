@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|c:\\users\\anwender\\desktop\\github\\cubesexplosion\\assets\\scripts\\cubehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|c:\\users\\anwender\\desktop\\github\\cubesexplosion\\assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|c:\\users\\anwender\\desktop\\github\\cubesexplosion\\assets\\scripts\\raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\raycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cubehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\explosioncreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explosioncreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Raycaster.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\Raycaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Raycaster.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\Raycaster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Raycaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T13:12:31.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InputReader.cs",
+              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\InputReader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputReader.cs",
+              "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\InputReader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:02:49.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CubeHandler.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\CubeHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeHandler.cs",
@@ -55,16 +85,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ChanceCounter.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ChanceCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChanceCounter.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ChanceCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChanceCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:03:11.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T10:03:11.045Z"
             },
             {
               "$type": "Document",
@@ -80,13 +109,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ExplosionCreater.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ExplosionCreater.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosionCreater.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ExplosionCreater.cs",
               "RelativeToolTip": "Assets\\Scripts\\ExplosionCreater.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:40.221Z"
             },
@@ -98,13 +127,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cube.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\Cube.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cube.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:17.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CubeSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\CubeSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawner.cs",
@@ -113,19 +142,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:05.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InputReader.cs",
-              "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\InputReader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputReader.cs",
-              "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\InputReader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:02:49.657Z",
-              "EditorCaption": ""
             }
           ]
         }
