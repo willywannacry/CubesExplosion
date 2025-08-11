@@ -414,6 +414,7 @@
 "Assets/Scripts/ChanceCounter.cs"
 "Assets/Scripts/ColorChanger.cs"
 "Assets/Scripts/Cube.cs"
+"Assets/Scripts/CubeHandler.cs"
 "Assets/Scripts/CubeSpawner.cs"
 "Assets/Scripts/ExplosionCreater.cs"
 "Assets/Scripts/InputReader.cs"

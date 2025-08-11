@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputReader.cs" />
+    <Compile Include="Assets\Scripts\CubeHandler.cs" />
     <Compile Include="Assets\Scripts\ExplosionCreater.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\ChanceCounter.cs" />

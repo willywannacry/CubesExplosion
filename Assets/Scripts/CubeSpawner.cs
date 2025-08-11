@@ -6,9 +6,9 @@ public class CubeSpawner : MonoBehaviour
     private int _maxCubes = 6;
     private float _sizeDevider = 0.5f;
 
-    public Cube[] TrySplitCube(Cube cube, float chance)
+    public Cube[] SplitCube(Cube cube, float chance)
     {
-        int quantity = Quantity();
+        int quantity = GetQuantity();
         Cube[] cubes = new Cube[quantity];
 
         for (int i = 0; i < quantity; i++)
@@ -21,7 +21,12 @@ public class CubeSpawner : MonoBehaviour
         return cubes;
     }
 
-    private int Quantity()
+    public void Destroy(Cube cube)
+    {
+        Destroy(cube.gameObject);
+    }
+
+    private int GetQuantity()
     {
         return Random.Range(_minCubes, _maxCubes);
     }

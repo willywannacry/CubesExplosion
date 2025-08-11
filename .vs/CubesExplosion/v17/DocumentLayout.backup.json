@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD8098F9-B7A6-EB2A-D442-934E13D55A3B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\anwender\\desktop\\github\\cubesexplosion\\assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\chancecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ColorChanger.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ColorChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ColorChanger.cs",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ExplosionCreater.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ExplosionCreater.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosionCreater.cs",
@@ -62,25 +62,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Cube.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\Cube.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cube.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\Cube.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cube.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:17.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ChanceCounter.cs",
               "DocumentMoniker": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ChanceCounter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChanceCounter.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\ChanceCounter.cs",
               "RelativeToolTip": "Assets\\Scripts\\ChanceCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:11.045Z"
             },
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawner.cs",
               "ToolTip": "C:\\Users\\Anwender\\Desktop\\GitHub\\CubesExplosion\\Assets\\Scripts\\CubeSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:03:05.707Z"
             },
